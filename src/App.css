@@ -1,0 +1,24 @@
+.fullPage{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: "sidemenuBar MainBody";
+}
+
+.sidemenuBar{
+    grid-area: sidemenuBar;
+    border: 2px solid black;
+}
+.MainBody{
+    grid-area: MainBody;
+    border: 2px solid black;
+}
+
+/* @media(max-width:769px){
+    .sidemenuBar{
+        display: none;
+    }
+    .MainBody{
+        width: 100%;
+    }
+} */

@@ -1,0 +1,15 @@
+.HeadingSections {
+  margin: 30px 2px; 
+  font-family: "Inter, sans-serif";
+  font-size: "bold";
+}
+
+h2 {
+  font-size: 40px;
+  color: black;
+  /* margin: 10px; */
+  padding-bottom: 5px;
+}
+p {
+  padding-left: 2px;
+}

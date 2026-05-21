@@ -1,0 +1,12 @@
+.charts{
+    width: 90%;
+    display: flex;
+    /* background: red; */
+}
+@media(max-width:769px){
+      .mainbody{
+        width: 100%;
+        /* width:100vw; */
+        border: 2px solid black;
+      }
+}

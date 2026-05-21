@@ -1,0 +1,30 @@
+.BottomNavigation{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 10px;
+}
+button{
+    border: none;
+    background: white;
+    display: flex;
+    gap: 20px;
+    min-Width: "40px"; 
+    color: "#6B7280"; 
+    font-size: 16px;
+    padding: 15px;
+
+    
+}
+button:hover{
+    background: #f0f2f6;
+    border-radius: 10px;
+}
+.nav-icon{
+    color: #6B7280;
+}
+@media(max-width:769px){
+    .sideBarMenu{
+        display: none;  
+    }
+}

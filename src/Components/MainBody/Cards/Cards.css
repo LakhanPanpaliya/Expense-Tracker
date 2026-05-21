@@ -1,0 +1,8 @@
+@media(max-width:769px){
+     .card-box{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        background: red;
+     }
+}
